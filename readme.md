@@ -20,7 +20,7 @@ then insert script tag
 or use unpkg CDN
 
 ```html
-<script src='https://unpkg.com/bl-img@0.0.1/dist/blimg.js'></script>
+<script src='https://unpkg.com/bl-img@0.0.3/dist/blimg.js'></script>
 ```
 
 after this you should be able to use it like any other html tags

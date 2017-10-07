@@ -1,11 +1,14 @@
 {
-  "name": "@stencil/starter",
-  "private": true,
+  "name": "bl-img",
   "version": "0.0.1",
-  "description": "Stencil App Starter",
+  "description": "Blur-load (progressive) image web component",
+  "main": "dist/collection/index.js",
+  "types": "dist/collection/index.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
   "files": [
     "dist/"
   ],
+  "browser": "dist/blimg.js",
   "scripts": {
     "build": "stencil build --prerender",
     "dev": "sd concurrent \"stencil build --dev --watch\" \"stencil-dev-server\" ",

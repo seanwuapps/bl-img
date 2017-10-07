@@ -1,7 +1,7 @@
 bl-img{
   display: inherit;
   img{
-    transition: filter 0.3s linear;
+    transition: filter 0.35s linear;
   }
   img:not(.enhanced){
     filter: blur(5px);

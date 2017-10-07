@@ -1,0 +1,9 @@
+bl-img{
+  display: inherit;
+  img{
+    transition: filter 0.3s linear;
+  }
+  img:not(.enhanced){
+    filter: blur(5px);
+  }
+}

@@ -6,31 +6,33 @@
 
 import '@stencil/router';
 
-import { MyName as MyName } from './components/my-name/my-name';
+import { BlImg as BlImg } from './components/bl-img/bl-img';
 
-interface HTMLMyNameElement extends MyName, HTMLElement {
+interface HTMLBlImgElement extends BlImg, HTMLElement {
 }
-declare var HTMLMyNameElement: {
-  prototype: HTMLMyNameElement;
-  new (): HTMLMyNameElement;
+declare var HTMLBlImgElement: {
+  prototype: HTMLBlImgElement;
+  new (): HTMLBlImgElement;
 };
 declare global {
   interface HTMLElementTagNameMap {
-      "my-name": HTMLMyNameElement;
+      "bl-img": HTMLBlImgElement;
   }
   interface ElementTagNameMap {
-      "my-name": HTMLMyNameElement;
+      "bl-img": HTMLBlImgElement;
   }
   namespace JSX {
       interface IntrinsicElements {
-          "my-name": JSXElements.MyNameAttributes;
+          "bl-img": JSXElements.BlImgAttributes;
       }
   }
   namespace JSXElements {
-      export interface MyNameAttributes extends HTMLAttributes {
+      export interface BlImgAttributes extends HTMLAttributes {
         
-          first?: any,
-          last?: any
+          thumbSrc?: any,
+          src?: any,
+          alt?: any,
+          class?: any
       }
   }
 }

@@ -1,6 +1,6 @@
 {
-  "name": "Stencil Starter",
-  "short_name": "Stencil",
+  "name": "Blur-load Image",
+  "short_name": "Blur-load Image",
   "start_url": "/",
   "display": "standalone",
   "icons": [{

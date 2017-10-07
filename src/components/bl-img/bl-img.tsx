@@ -40,24 +40,24 @@ export class BlImg {
 
 
   onImageLoaded = () =>{
-    console.log('on image loaded called');
+    // console.log('on image loaded called');
 
     if(this.img.src === this.src){
-      console.log('hd src loaded')
+      // console.log('hd src loaded')
       this.imgClasses = this.imgClasses + ' enhanced'; 
       this.img.className = this.imgClasses;
       this.loaded = true;
       return;
     }
 
-    console.log('thumb loaded but not hd');
+    // console.log('thumb loaded but not hd');
     // load large image
     this.loadedSrc = this.src;
   }
   
 
   render() {
-    console.log('rendering with img: '+ this.loadedSrc);
+    // console.log('rendering with img: '+ this.loadedSrc);
     return (
       <img src={this.loadedSrc}  alt={this.alt} />
     );

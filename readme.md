@@ -1,3 +1,4 @@
+
 #bl-img
 
 Web component that loads a thumbnail image first with blur effect, then loads the HD image in the background, after HD image is loaded it appears with removal of the blur effect.

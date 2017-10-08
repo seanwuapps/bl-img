@@ -20,7 +20,7 @@ then insert script tag
 or use unpkg CDN
 
 ```html
-<script src='https://unpkg.com/bl-img@0.0.3/dist/blimg.js'></script>
+<script src='https://unpkg.com/bl-img@0.0.4/dist/blimg.js'></script>
 ```
 
 after this you should be able to use it like any other html tags
@@ -37,7 +37,7 @@ after this you should be able to use it like any other html tags
       }
     </style>
     <bl-img 
-    class="full-width"
+    class="image"
     thumb-src="https://cdn-images-1.medium.com/freeze/max/60/1*xU8VOotxa_HpI908SBACAQ.jpeg?q=20" src="https://cdn-images-1.medium.com/max/1600/1*xU8VOotxa_HpI908SBACAQ.jpeg"
     alt="hello world"
     ></bl-img>
@@ -53,7 +53,7 @@ after this you should be able to use it like any other html tags
       }
     </style>
     <bl-img 
-    class="full-width"
+    class="image"
     thumb-src="https://cdn-images-1.medium.com/freeze/max/60/1*xU8VOotxa_HpI908SBACAQ.jpeg?q=20" src="https://cdn-images-1.medium.com/max/1600/1*xU8VOotxa_HpI908SBACAQ.jpeg"
     alt="hello world"
     ></bl-img>

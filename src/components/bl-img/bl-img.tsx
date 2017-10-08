@@ -20,6 +20,14 @@ export class BlImg {
   imgClasses: string;
 
   componentDidLoad = () => {
+    if(!this.thumbSrc){
+      // debugger;
+      this.loadedSrc = this.src;
+      this.imgClasses = this.imgClasses + ' enhanced'; 
+      this.img = this.el.querySelector('img');  
+      this.img.className = this.imgClasses;
+      return;
+    }
     this.initImage();
   }
 

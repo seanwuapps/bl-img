@@ -1,6 +1,6 @@
 {
   "name": "bl-img",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Blur-load (progressive) image web component",
   "main": "dist/collection/index.js",
   "types": "dist/collection/index.d.ts",

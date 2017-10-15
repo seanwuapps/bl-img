@@ -5,9 +5,7 @@ exports.config = {
   bundles: [
     { components: ['bl-img'] }
   ],
-  collections: [
-    { name: '@stencil/router' }
-  ]
+  collections: []
 };
 
 exports.devServer = {

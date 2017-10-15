@@ -4,8 +4,6 @@
  * and imports for stencil collections that might be configured in your stencil.config.js file
  */
 
-import '@stencil/router';
-
 import { BlImg as BlImg } from './components/bl-img/bl-img';
 
 interface HTMLBlImgElement extends BlImg, HTMLElement {
